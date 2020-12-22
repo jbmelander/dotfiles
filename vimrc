@@ -87,7 +87,7 @@ inoremap <up>       <nop>
 inoremap <down>     <nop>
 
 " Run current file with python3
-map <leader>p :FloatermNew! python3 % <CR>
+map <leader>p  :! python3 % <CR>
 
 " Autoformat a python document
 map <leader>b :! black % <CR>  :edit % <CR> :! isort % <CR> :edit % <CR>
@@ -124,7 +124,7 @@ let rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 
 " floatterm
 let g:floaterm_wintype = 'popup'
-let g:floaterm_autoclose=1
+let g:floaterm_autoclose=2
 nnoremap   <silent>   <leader>e    :FloatermNew<CR>
 tnoremap   <silent>   <leader>r   <C-\><C-n>:FloatermToggle<CR>
 nnoremap   <silent>   <leader>r   :FloatermToggle<CR>

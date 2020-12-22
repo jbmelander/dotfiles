@@ -108,6 +108,6 @@ fi
 export EDITOR='vim'
 export TERM=screen-256color
 
-source ~/.hendrix/bin/activate
+source ~/.h2/bin/activate
 # Josh's Personal Aliases
 alias hendrix='source /home/melander/.hendrix/bin/activate'
