@@ -1,4 +1,4 @@
-"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 " 1. PREAMBLE
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 """ Download vim.plug via curl if it isn't found in default location
@@ -14,6 +14,7 @@ endif
 call plug#begin('~/.vim/plugged')
 " badwolf: great colorscheme
 Plug 'sjl/badwolf'
+
 " fzf: awesome fuzzy-file-finder
 Plug 'junegunn/fzf', {'do': { -> fzf#install()}}
 Plug 'junegunn/fzf.vim'
@@ -32,6 +33,9 @@ Plug 'voldikss/vim-floaterm'
 
 " jedi: python autocompletion
 Plug 'davidhalter/jedi-vim'
+
+" vimcompletesme: tab completion like jupyter lab
+Plug 'ajh17/VimCompletesMe'
 call plug#end()
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 " 3. BASICS

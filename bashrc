@@ -110,4 +110,3 @@ export TERM=screen-256color
 
 source ~/.h2/bin/activate
 # Josh's Personal Aliases
-alias hendrix='source /home/melander/.hendrix/bin/activate'
