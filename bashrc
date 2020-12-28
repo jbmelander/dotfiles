@@ -108,5 +108,5 @@ fi
 export EDITOR='vim'
 export TERM=screen-256color
 
-source ~/.h2/bin/activate
+source ~/.freud/bin/activate
 # Josh's Personal Aliases
