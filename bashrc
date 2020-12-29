@@ -107,6 +107,11 @@ fi
 
 export EDITOR='vim'
 export TERM=screen-256color
-
+# cd ~/Code
 source ~/.freud/bin/activate
+bat ~/.reminders
 # Josh's Personal Aliases
+
+alias foghorn="ssh jung@foghorn.stanford.edu"
+alias foghornx="ssh -X jung@foghorn.stanford.edu"
+alias settings="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"

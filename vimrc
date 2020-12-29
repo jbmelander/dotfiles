@@ -103,7 +103,8 @@ map <leader>e <C-W>=
 " Jump to Splits
 map <leader>h <Esc><C-W>h
 map <leader>hh <Esc>gT
-map <leader>ll <Esc>gt map <leader>j <Esc><C-W>j
+map <leader>ll <Esc>gt 
+map <leader>j <Esc><C-W>j
 map <leader>k <Esc><C-W>k
 map <leader>l <Esc><C-W>l
 
