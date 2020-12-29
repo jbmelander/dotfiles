@@ -105,13 +105,17 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# "I realy doubt anyone will ever read this"
+# ¯\_(ツ)_/¯  You made it this far, comrade
+# If you are reading this and you aren't Josh, let him know:
+# cell: 1-669-666-4440 / email: melander@stanford.edu
+
+
 export EDITOR='vim'
 export TERM=screen-256color
-# cd ~/Code
 source ~/.freud/bin/activate
-bat ~/.reminders
-# Josh's Personal Aliases
-
 alias foghorn="ssh jung@foghorn.stanford.edu"
 alias foghornx="ssh -X jung@foghorn.stanford.edu"
 alias settings="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
+alias m="python3 /home/jung/Code/moksha/main.py"
+
