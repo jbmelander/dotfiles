@@ -19,9 +19,6 @@ Plug 'sjl/badwolf'
 Plug 'junegunn/fzf', {'do': { -> fzf#install()}}
 Plug 'junegunn/fzf.vim'
 
-" vim-rainbow: nested-order bracket/parentheses color-coding
-Plug 'frazrepo/vim-rainbow'
-
 " vim-commentary: gcc to comment out lines or blocks
 Plug 'tpope/vim-commentary'
 
@@ -36,6 +33,9 @@ Plug 'davidhalter/jedi-vim'
 
 " vimcompletesme: tab completion like jupyter lab
 Plug 'ajh17/VimCompletesMe'
+
+"iamcco/markdown-preview.vim: real-time in-browser rendering of .md files"
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 call plug#end()
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 " 3. BASICS
@@ -133,3 +133,7 @@ let g:floaterm_autoclose=2
 nnoremap   <silent>   <leader>e    :FloatermNew<CR>
 tnoremap   <silent>   <leader>r   <C-\><C-n>:FloatermToggle<CR>
 nnoremap   <silent>   <leader>r   :FloatermToggle<CR>
+
+"markdown-preview
+let g:mkdp_auto_start=1
+let g:mkdp_auto_close=0

@@ -113,9 +113,9 @@ fi
 
 export EDITOR='vim'
 export TERM=screen-256color
+
 source ~/.freud/bin/activate
+
 alias foghorn="ssh jung@foghorn.stanford.edu"
 alias foghornx="ssh -X jung@foghorn.stanford.edu"
-alias settings="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
-alias m="python3 /home/jung/Code/moksha/main.py"
 
