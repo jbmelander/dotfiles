@@ -113,6 +113,8 @@ map <leader>v <Esc>:vsplit<CR>
 map <leader>t <Esc>:tabnew<CR>
 map <leader>f :Files<CR>
 
+map <leader>r qa
+map <leader>a @a
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 " 4. PLUGIN CUSTOMIZATION
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
